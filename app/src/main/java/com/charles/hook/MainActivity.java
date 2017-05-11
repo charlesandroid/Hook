@@ -24,5 +24,19 @@ public class MainActivity extends Activity {
                 startActivity(new Intent(MainActivity.this, MainActivity.class));
             }
         });
+
+        findViewById(R.id.btn2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                HookService.hook(InstrumentationProxy.class);
+            }
+        });
+        findViewById(R.id.btn3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                HookService.revert(InstrumentationProxy.class);
+
+            }
+        });
     }
 }
