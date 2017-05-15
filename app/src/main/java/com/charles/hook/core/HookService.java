@@ -1,10 +1,12 @@
-package com.charles.hook;
+package com.charles.hook.core;
+
+import com.charles.hook.activity.InstrumentationProxy;
 
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * com.charles.hook.HookService
+ * com.charles.hook.core.HookService
  *
  * @author Just.T
  * @since 17/5/11

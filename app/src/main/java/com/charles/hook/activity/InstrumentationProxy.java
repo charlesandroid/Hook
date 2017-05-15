@@ -1,9 +1,12 @@
-package com.charles.hook;
+package com.charles.hook.activity;
 
 import android.app.Activity;
 import android.app.Instrumentation;
 import android.os.Bundle;
 import android.util.Log;
+
+import com.charles.hook.core.IProxy;
+import com.charles.hook.core.ReflectUtils;
 
 import java.lang.reflect.Method;
 

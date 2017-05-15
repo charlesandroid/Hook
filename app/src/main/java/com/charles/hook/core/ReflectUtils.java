@@ -1,10 +1,10 @@
-package com.charles.hook;
+package com.charles.hook.core;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 /**
- * com.charles.hook.ReflectUtils
+ * com.charles.hook.core.ReflectUtils
  *
  * @author Just.T
  * @since 17/5/11
